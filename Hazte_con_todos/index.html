@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pokedex</h1>
+        <ol id="pokedex"></ol>
+    </div>
+    <div class="card">
+        <p id="card-title" class="card-title"></p>
+        <p id="card-subtitle" class="card-subtitle"></p>
+        <div id="card-image" class="card-image">
+            <img id="card-divimg" >
+        </div>
+        <button id="btAnterior" onclick="theLast(cont)">Anterior</button>
+        <button id="btSiguiente"  onclick="next(cont)"">Siguiente</button>
+
+
+    </div>
+    <script src="poke.js"></script>
+</body>
+
+</html>
